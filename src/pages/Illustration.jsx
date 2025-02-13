@@ -1,4 +1,4 @@
-import Nav from '../components/nav.jsx'
+import Nav from '../components/Nav.jsx'
 import Footer from '../components/Footer.jsx'
 
 import illImage from "../assets/illustration_image.png";
@@ -13,6 +13,8 @@ import concept from "../assets/galleryImages/spiderman_concept.png";
 import pokemon from "../assets/galleryImages/pokemon.png";
 import dog from "../assets/galleryImages/dog.png";
 import graphic from "../assets/galleryImages/graphic_design.png";
+
+import React from 'react';
 
 // style={{
 //     backgroundImage: `url(${illImage})`,

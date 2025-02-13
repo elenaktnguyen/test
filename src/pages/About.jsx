@@ -1,8 +1,10 @@
-import Nav from '../components/nav.jsx'
+import Nav from '../components/Nav.jsx'
 import Footer from '../components/Footer.jsx'
 
 import myPhoto from "../assets/my_photo.png";
 import email from "../assets/email.png";
+
+import React from 'react';
 
 function About() {
     return (

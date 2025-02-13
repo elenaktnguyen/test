@@ -1,4 +1,4 @@
-import Nav from '../components/nav.jsx'
+import Nav from '../components/Nav.jsx'
 import Footer from '../components/Footer.jsx'
 import card from "../assets/card_placeholder.png";
 
@@ -10,6 +10,8 @@ import projectsCard from "../assets/cardImages/projects_card.png";
 import linkedinCard from "../assets/cardImages/linkedin_card.png";
 
 import { Link } from 'react-router-dom';
+
+import React from 'react';
 
 function Homepage() {
     return (
