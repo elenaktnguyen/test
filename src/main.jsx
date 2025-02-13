@@ -11,7 +11,7 @@ import Illustration from './pages/Illustration.jsx'
 import Projects from './pages/Projects.jsx'
 import About from './pages/About.jsx'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {path: '/', element: <App/>},
@@ -23,6 +23,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+      <Routes>
+        <Route path = "*" element = {<App />} />
+      </Routes>
   </React.StrictMode>,
 )
