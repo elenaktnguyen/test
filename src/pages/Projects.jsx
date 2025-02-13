@@ -1,4 +1,4 @@
-import Nav from '../components/nav.jsx'
+import Nav from '../components/Nav.jsx'
 import Footer from '../components/Footer.jsx'
 import ProjectCard from '../components/ProjectCard.jsx';
 import CardTemplate from "../assets/project_card_image_placeholder.png";
@@ -6,6 +6,7 @@ import miso from "../assets/miso_hungry.png";
 import sample from "../assets/sample_project.png";
 import flipPhone from "../assets/flip_phone.png";
 
+import React from 'react';
 
 function Projects() {
     return (
